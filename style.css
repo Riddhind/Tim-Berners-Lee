@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
-    background:linear-gradient(#e0bdff 0%, #fc68dc 50%, #fa5a87 100%);
+    background: linear-gradient(#e0bdff 0%, #fc68dc 50%, #fa5a87 100%);
 }
 
 .parallax-inner {
@@ -100,4 +100,16 @@ p {
 
 .links:hover {
     background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.articles:hover {
+    color:#80ff00;
+}
+
+html {
+    scroll-behavior: smooth;
 }
